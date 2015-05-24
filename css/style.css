@@ -2,6 +2,7 @@
   padding:0;
   margin:0;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .clearfix {
@@ -14,24 +15,23 @@
 }
 
 h1 {
-  font-size: 40px;
-  color: #F5A623;
+  font-size: 3em;
+  color: #ffb03b;
   line-height: 48px;
   display: inline;
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #999999;
+  font-size: 2em;
+  color: #1695A3;
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
   font-style: italic;
-  font-size: 20px;
-  color: #000000;
+  font-size: 1.5em;
+  color: #1695A3;
   line-height: 22px;
 }
 
@@ -50,30 +50,28 @@ h2, h3, h4, h5 {
 
 
 .date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
   float: left;
 }
 
 .location-text {
+  float: right;
+}
+
+.date-location {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #1695a3;
   line-height: 16px;
-  float: right;
-
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   color: #333333;
   line-height: 21px;
 }
 
 a {
-  color: #1199C3;
+  color: #eb7f00;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -82,41 +80,39 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #e6e2af;
   line-height: 28px;
 }
 
-#skillsH3 {
-  color: #F5AE23;
-  display: none;
+#skillsH3{
+  color: #ffb03b;
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #f5ae23;
 }
 
-.orange-text {
-  color: #F5AE23;
+.cyan-text {
+  color: #acf0f2;
 }
 
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
+.yellow-text {
+  color: #ffff9d;
+  font-size: 1em;
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #225378;
 }
 
 .flex-box {
@@ -212,4 +208,32 @@ span {
   .biopic {
     display: block;
   }
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+#skills {
+  font-size: 1.2em;
+}
+
+/* Styles for Navigation Menu */
+#navMenu {
+    background-color: #1695A3;
+    border-top: 2px solid #ffb03b;
+    border-bottom: 2px solid #ffb03b;
+}
+
+#navMenu.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #225378;
+}
+
+#navMenu a {
+  color: #FFF0A5;
+  font-weight: 400;
+  font-size: 1.2em;
 }
